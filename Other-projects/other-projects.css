@@ -1,25 +1,22 @@
 @font-face {
     font-family: 'Nunito';
     /*a name to be used later*/
-    src: url("/Fonts/Nunito-Bold.ttf");
+    src: url("../Fonts/Nunito-Bold.ttf");
     /*URL to font*/
 }
-
 
 .titles {
     font-family: 'Nunito';
     margin-block: 0px;
-    
 }
 
 #expression-form {
-
     margin-bottom: 0%;
 }
 
 #alt-code-main {
     font-family: 'Nunito';
-    float:left;
+    float: left;
     font-size: 36pt;
     padding-right: 50px;
 }
@@ -48,9 +45,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
 #answer {
-    
     width: 400px;
     flex-wrap: wrap;
     word-wrap: break-word;
@@ -61,8 +56,6 @@
     font-size: 24pt;
     margin-block: 50px;
 }
-
-
 
 #login-error-msg {
     opacity: 0;
