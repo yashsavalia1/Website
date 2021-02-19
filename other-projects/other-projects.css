@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'Nunito';
+    /*a name to be used later*/
+    src: url("../Fonts/Nunito-Bold.ttf");
+    /*URL to font*/
+}
+
+.titles {
+    font-family: 'Nunito';
+    margin-block: 0px;
+}
+
+#expression-form {
+    margin-bottom: 0%;
+}
+
+#alt-code-main {
+    font-family: 'Nunito';
+    float: left;
+    font-size: 36pt;
+    padding-right: 50px;
+}
+
+#main-holder {
+    font-family: 'Nunito';
+}
+
+#exp-field {
+    font-size: 24px;
+    margin-bottom: 0%;
+}
+
+#submit {
+    height: 50px;
+}
+
+#key ul {
+    column-count: 2;
+    column-gap: 50px;
+    flex-wrap: wrap;
+    height: 200px;
+    margin-top: 0px;
+    font-size: 24px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#answer {
+    width: 400px;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    position: absolute;
+    top: 100px;
+    font-weight: lighter;
+    font-size: 24pt;
+    margin-block: 50px;
+}
+
+#login-error-msg {
+    opacity: 0;
+}
