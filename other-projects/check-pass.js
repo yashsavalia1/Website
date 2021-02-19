@@ -19,5 +19,5 @@ loginButton.addEventListener("click", (e) => {
 })
 
 function Redirect() {
-    window.location = "/snake/";
+    window.location = "./snake/";
 }
