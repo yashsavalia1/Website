@@ -5,6 +5,24 @@
     /*URL to font*/
 }
 
+body {
+    background-image: linear-gradient(45deg, rgb(153, 208, 245), rgb(244, 123, 255));
+}
+
+#link-holder {
+    white-space: nowrap;
+    margin-block: 50px;
+}
+
+#link-holder a {
+    border-radius: 25px;
+    background-color: rgb(54, 197, 102);
+    color: white;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    font-size: large;
+}
+
 .titles {
     font-family: 'Nunito';
     margin-block: 0px;
