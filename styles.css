@@ -82,3 +82,7 @@ html,
     background-color: #efefef;
     text-align: center;
 }
+
+#footer a {
+    padding-inline: 50px;
+}

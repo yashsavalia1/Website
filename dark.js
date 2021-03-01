@@ -6,14 +6,3 @@ function darkmode() {
 
     }
 }
-
-function toggleDarkMode() {
-    if (document.cookie == "darkmode") {
-        document.cookie = "lightmode";
-        darkmode();
-    } else {
-        document.cookie = "darkmode";
-        darkmode();
-    }
-
-}

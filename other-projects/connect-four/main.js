@@ -126,6 +126,9 @@ function onClick(event) {
         ctx.fillStyle = "black";
         ctx.fillText("Yellow Wins!", 770, 170, 500);
         canvas.removeEventListener("click", onClick);
+        setTimeout(() => {
+            window.location = "."
+        }, 5000);
     }
 
 }
