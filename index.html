@@ -1,5 +1,5 @@
 <!--
-    Home Page
+	Home Page
 -->
 
 <head>
@@ -8,9 +8,12 @@
     <link rel="shortcut icon" href="favicon.ico?" type="image/x-icon" />
 
     <script defer src="scroll.js"></script>
+    <script defer src="dark.js"></script>
 </head>
 
+<body id="body" onload="darkmode()">
 
+</body>
 
 
 <nav class="topnav" id="topnav">
@@ -39,7 +42,9 @@
         This site is currently under developement.
     </div>
 
-
+    <div class="dark-button" onclick="toggleDarkMode()">
+        <button id="dark-toggle">Toggle Dark Mode</button>
+    </div>
 
 </div>
 
