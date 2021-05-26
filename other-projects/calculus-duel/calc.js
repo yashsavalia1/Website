@@ -8,10 +8,11 @@ function darkmode() {
     }
 }
 
-function hover() {
-    document.getElementsByTagName("a")[0].style = "-webkit-box-shadow: 5px 5px 15px rgba(0, 0, 0, 1); -moz-box-shadow: 5px 5px 15px rgba(0, 0, 0, 1);"
+function hover(str) {
+    document.getElementById(str).style = "-webkit-box-shadow: 5px 5px 15px rgba(0, 0, 0, 1); -moz-box-shadow: 5px 5px 15px rgba(0, 0, 0, 1);"
+
 }
 
-function exit() {
-    document.getElementsByTagName("a")[0].style = "";
+function exit(str) {
+    document.getElementById(str).style = "";
 }

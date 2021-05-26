@@ -16,14 +16,17 @@ body {
     height: 100%;
 }
 
-#link1 {
+.button {
     font-size: 20pt;
+    margin-top: 10px;
+    margin-bottom: 10px;
     background-color: rgb(0, 255, 0);
     border-radius: 25px;
     padding-inline: 20px;
     padding-block: 5px;
     text-decoration: none;
     color: black;
+    display: inline-block;
 }
 
 p {
