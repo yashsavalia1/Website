@@ -6,3 +6,12 @@ function darkmode() {
 
     }
 }
+
+function hover(str) {
+    document.getElementById(str).style = "-webkit-box-shadow: 5px 5px 15px rgba(0, 0, 0, 1); -moz-box-shadow: 5px 5px 15px rgba(0, 0, 0, 1);"
+
+}
+
+function exit(str) {
+    document.getElementById(str).style = "";
+}
