@@ -17,7 +17,6 @@ function darkmode() {
 
     } else {
         document.getElementsByTagName("BODY")[0].style.backgroundImage = "url(https://i.stack.imgur.com/spmUM.gif)"
-        document.getElementsByTagName("BODY")[0].style.backgroundSize = "cover"
 
     }
 }
